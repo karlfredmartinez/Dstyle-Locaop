@@ -10,155 +10,168 @@
     color: #fff;
     text-align: center;
 }
-#mf1{
-    padding: 100px 0;
-}
-#mf1 .content{
-    display: flex;
-    flex-wrap: wrap;
-}
-#mf1 .content .left{
-    width: 65%;
-    padding-right: 75px;
-}
-#mf1 .content .left .message{
-    padding-top: 18px;
-    margin-bottom: 25px;
-}
-#mf1 .content .left .message p{
-    font-size: 1em;
-    line-height: 3.5em;
-}
-#mf1 .content .left figure{
-    width: 275px;
-    margin-left: auto;
-}
-#mf1 .content .left figure img{
-    width: 100%;
-}
-#mf1 .content .right{
-    width: 35%;
-}
-#mf1 .content .right img{
-    width: 100%;
-}
-#mf1 .content .ttl01{
-    border-bottom: 1px solid #D1D1D1;
-}
-#mf1 .content .ttl01 h3{
-    margin-bottom: 15px;
-    font-weight: 700;
-    color: #3E2B81;
-}
-#mf1 .content .ttl01 p{
-    color: #000;
-    font-weight: 400;
-}
 
-#mf2{
+#mf1{
     padding: 0 0 68px;
 }
-#mf2 .content{
+#mf1 .content{
     max-width: 750px;
     margin: 0 auto;
 }
-#mf2 .ttl01{
+#mf1 .ttl01{
     border-bottom: 1px solid #D1D1D1;
+    margin-top: 35px;
     margin-bottom: 35px;
 }
-#mf2 .ttl01 h3{
+#mf1 .ttl01 h3{
     margin-bottom: 15px;
+    font-size: 2.5em;
+    color: #3E2B81;
+    font-weight: 700;
 }
-#mf2 .ttl01 h3 img{
-    max-width: 385px;
-}
-#mf2 .ttl01 p{
+
+#mf1 .ttl01 p{
     color: #000; 
 }
-#mf2 table{
+#mf1 table{
     width: 100%;
     table-layout: fixed;
 }
-#mf2 table tr:nth-child(odd){
+#mf1 table tr:nth-child(odd){
     background-color: rgba(62, 43, 129, 0.02);
 }
-#mf2 table tr:nth-child(5){
+#mf1 table tr:nth-child(5){
     vertical-align: top;
 }
-#mf2 table tr th,
-#mf2 table tr td{
-    padding: 14px 0;
+#mf1 table tr th,
+#mf1 table tr td{
+    padding: 14px 15px;
+    line-height: 3em;
 }
-#mf2 table tr th{
+#mf1 table tr th{
     width: 220px;
 }
-#mf2 table tr th{
-    padding-left: 60px;
-    font-size: 1.125em;
+#mf1 table tr th{
+    padding-left: 30px;
+    font-size: 1em;
     font-weight: 700;
     color: #3E2B81;
+}
+
+#mf2{
+    padding: 100px 0;
+    background-color: #F7F7F7;
+}
+
+#mf2 .content .ttl01 h3{
+    margin-bottom: 15px;
+    font-weight: 700;
+    color: #3E2B81;
+}
+
+#mf2 .content img{
+    width: 100%;
 }
 
 #mf3{
     padding: 100px 0;
-    background-color: #F7F7F7;
 }
 #mf3 .content{
-    max-width: 750px;
-    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+#mf3 .content .left{
+    width: 65%;
+    padding-right: 75px;
+}
+#mf3 .content .left .message{
+    padding-top: 18px;
+    margin-bottom: 25px;
+}
+#mf3 .content .left .message p{
+    font-size: 1em;
+    line-height: 2.5em;
+}
+#mf3 .content .left figure{
+    width: 275px;
+    margin-left: auto;
+}
+#mf3 .content .left figure img{
+    width: 100%;
+}
+#mf3 .content .right{
+    width: 35%;
+}
+#mf3 .content .right img{
+    width: 100%;
 }
 #mf3 .content .ttl01{
     border-bottom: 1px solid #D1D1D1;
-    margin-bottom: 45px;
 }
 #mf3 .content .ttl01 h3{
     margin-bottom: 15px;
     font-weight: 700;
     color: #3E2B81;
 }
-#mf3 .content .ttl01 p{
-    color: #000;
+
+#mf4{
+    padding: 100px 0;
+    background-color: #F7F7F7;
 }
-#mf3 table{
+#mf4 .content{
+    max-width: 750px;
+    margin: 0 auto;
+}
+#mf4 .content .ttl01{
+    border-bottom: 1px solid #D1D1D1;
+    margin-bottom: 45px;
+}
+#mf4 .content .ttl01 h3{
+    margin-bottom: 15px;
+    font-weight: 700;
+    color: #3E2B81;
+}
+
+#mf4 table{
     width: 100%;
     table-layout: fixed;
 }
-#mf3 table tr:not(:last-child){
+#mf4 table tr:not(:last-child){
     border-bottom: 1px solid #D1D1D1;
 }
-#mf3 table tr:not(:first-child) th,
-#mf3 table tr:not(:first-child) td{
+#mf4 table tr:not(:first-child) th,
+#mf4 table tr:not(:first-child) td{
     padding-top: 30px;
 }
-#mf3 table th{
+#mf4 table th{
     width: 265px;
     padding-bottom: 40px;
 }
-#mf3 table td{
+#mf4 table td{
     padding-left: 40px;
     padding-bottom: 40px;
 }
-#mf3 table th img{
+#mf4 table th img{
     width: 100%;
 }
-#mf3 table td h3{
+#mf4 table td h3{
     font-size: 1.375em;
     font-weight: 700;
     color: #3E2B81;
     margin-bottom: 6px;
 }
-#mf3 table td p{
+#mf4 table td p{
     font-size: 1.125em;
     margin-bottom: 30px;
 }
-#mf3 table td a{
+#mf4 table td a{
     color: #3E2B81;
     font-weight: 700;
     display: flex;
     align-items: center;
     width: fit-content;
 }
-#mf3 table td a img{
+#mf4 table td a img{
     width: 16px;
     margin-left: 10px;
 }
@@ -166,113 +179,116 @@
 
 @media only screen and (max-width: 1024px) {
     #mf1{
-        padding: 15vw 5vw;
+        padding: 10vw 5vw 10vw;
     }
-    #mf1 .content .ttl01 h3{
-        margin-bottom: 2vw;
+   #mf1 .content{
+        max-width: 100%;
     }
-    #mf1 .content .left{
-        width: 100%;
-        padding-right: 0;
-        padding-bottom: 10vw;
+   #mf1 .ttl01{
+        margin-bottom: 5vw;
     }
-    #mf1 .content .left .message{
-        padding-top: 5vw;
-        margin-bottom: 7vw;
+   #mf1 .ttl01 h3{
+        margin-bottom: 5vw;
+        display: flex;
     }
-    #mf1 .content .left .message p{
-        font-size: 1em;
-        line-height: 2.5em;
-    }
-    #mf1 .content .left figure{
-        width: 65%;
-        margin-left: auto;
-    }
-    #mf1 .content .left figure img{
+   #mf1 .ttl01 h3 img{
         width: 100%;
     }
-    #mf1 .content .right{
+   #mf1 table tr{
+        display: flex;
+        flex-wrap: wrap;
+    }
+   #mf1 table tr th,
+   #mf1 table tr td{
+        padding: 3vw 0;
         width: 100%;
     }
-    #mf1 .content .right img{
+   #mf1 table tr th{
         width: 100%;
+    }
+   #mf1 table tr th{
+        padding: 5vw 0 0;
     }
 
     #mf2{
         padding: 10vw 5vw 10vw;
     }
-    #mf2 .content{
-        max-width: 100%;
-    }
-    #mf2 .ttl01{
-        margin-bottom: 5vw;
-    }
-    #mf2 .ttl01 h3{
-        margin-bottom: 5vw;
-        display: flex;
-    }
-    #mf2 .ttl01 h3 img{
-        width: 100%;
-    }
-    #mf2 table tr{
-        display: flex;
-        flex-wrap: wrap;
-    }
-    #mf2 table tr th,
-    #mf2 table tr td{
-        padding: 3vw 0;
-        width: 100%;
-    }
-    #mf2 table tr th{
-        width: 100%;
-    }
-    #mf2 table tr th{
-        padding: 5vw 0 0;
-    }
 
-        
     #mf3{
-        padding: 10vw 5vw 10vw;
-    }
-    #mf3 .content{
-        max-width: 100%;
-    }
-    #mf3 .content .ttl01{
-        margin-bottom: 12vw;
+        padding: 15vw 5vw;
     }
     #mf3 .content .ttl01 h3{
+        margin-bottom: 2vw;
+    }
+    #mf3 .content .left{
+        width: 100%;
+        padding-right: 0;
+        padding-bottom: 10vw;
+    }
+    #mf3 .content .left .message{
+        padding-top: 5vw;
+        margin-bottom: 7vw;
+    }
+    #mf3 .content .left .message p{
+        font-size: 1em;
+        line-height: 2.5em;
+    }
+    #mf3 .content .left figure{
+        width: 65%;
+        margin-left: auto;
+    }
+    #mf3 .content .left figure img{
+        width: 100%;
+    }
+    #mf3 .content .right{
+        width: 100%;
+    }
+    #mf3 .content .right img{
+        width: 100%;
+    }
+        
+    #mf4{
+        padding: 10vw 5vw 10vw;
+    }
+    #mf4 .content{
+        max-width: 100%;
+    }
+    #mf4 .content .ttl01{
+        margin-bottom: 12vw;
+    }
+    #mf4 .content .ttl01 h3{
         margin-bottom: 5vw;
     }
-    #mf3 table tr:not(:last-child){
+    #mf4 table tr:not(:last-child){
         margin-bottom: 9vw;
     }
-    #mf3 table tr:not(:first-child) th,
-    #mf3 table tr:not(:first-child) td{
+    #mf4 table tr:not(:first-child) th,
+    #mf4 table tr:not(:first-child) td{
         padding-top: 0;
     }
-    #mf3 table tr{
+    #mf4 table tr{
         display: flex;
         flex-wrap: wrap;
     }
-    #mf3 table th{
+    #mf4 table th{
         width: 100%;
         padding-bottom: 5vw;
     }
-    #mf3 table td{
+    #mf4 table td{
         width: 100%;
         padding-left: 0;
         padding-bottom: 9vw;
     }
-    #mf3 table th img{
+    #mf4 table th img{
         width: 100%;
     }
-    #mf3 table td h3{
+    #mf4 table td h3{
         margin-bottom: 2vw;
     }
-    #mf3 table td p{
+    #mf4 table td p{
         margin-bottom: 5vw;
     }
-    #mf3 table td a img{
+    #mf4 table td a img{
         width: 1em;
         margin-left: 0.7em;
     }
