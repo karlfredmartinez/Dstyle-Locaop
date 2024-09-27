@@ -21,7 +21,7 @@
 #mf2 .ttl01 h3,
 #mf3 .ttl01 h3{
     margin-bottom: 15px;
-    font-weight: 700;
+    font-weight: 500;
     color: #3E2B81;
 }
 #mf1 .ttl01 p,
@@ -48,12 +48,14 @@
 }
 #mf1 .content .left .message p{
     font-size: 1em;
-    line-height: 3.5em;
+    line-height: 2em;
+    letter-spacing: 0px;
 }
 #mf1 .content .left .message p span{
     color: #3E2B81;
     font-weight: 700;
     font-size: 1.125em;
+    line-height: 3.5em;
 }
 #mf1 .content .right{
     width: 28%;
@@ -102,10 +104,12 @@
     line-height: 2.688em;
     margin-top: 22px;
     margin-bottom: 25px;
+    letter-spacing: 0px;
 }
 #mf2 .flex .row .content .desc{
     font-size: 0.875em;
     line-height: 2.688em;
+    letter-spacing: 0px;
 }
 #mf2 .flex .row hr{
     opacity: 0;
@@ -137,6 +141,9 @@
     position: relative;
     border-bottom: 1px solid #D1D1D1;
     padding: 55px 0;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-left: 2em;
 }
 #mf3 li::before{
     counter-increment: trCounter;
@@ -151,14 +158,19 @@
     padding: 0 5px;
 }
 #mf3 li .left{
-    width: 35%;
+    width: 100%;
     font-size: 1.375em;
     font-weight: 700;
     color: #3E2B81;
-    padding: 0 15px;
+    padding: 0 0 1em 0;
 }
 #mf3 li .right{
-    width: 65%;
+    width: 100%;
+    font-size: 0.9em;
+}
+
+#pankuzu ul{
+    font-size: 1em;
 }
 
 
@@ -178,8 +190,8 @@
         padding-top: 5vw;
     }
     #mf1 .content .left .message p{
-        font-size: 1em;
-        line-height: 2.5em;
+        font-size: 0.9em;
+        line-height: 2em;
     }
     #mf1 .content .right{
         width: 100%;
