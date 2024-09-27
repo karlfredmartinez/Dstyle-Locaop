@@ -1,0 +1,225 @@
+@charset "utf-8";
+
+#pankuzu{
+    display: none;
+}
+
+#mainvis{
+    background: #fff url('../images/top/img-01.jpg') no-repeat center center;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+#mainvis .content figure{
+    display: flex;
+    width: 387px;
+}
+#mainvis .content figure img{
+    width: 100%; 
+}
+#mainvis .content h1{
+    font-size: 40px;
+    line-height: 86px;
+    font-weight: 400;
+    display: inline-block;
+    border-bottom: 1px solid #8D8D8D;
+    padding-bottom: 15px; 
+    margin: 20px 0 26px 0;
+}  
+#mainvis .content p{
+    font-size: 22px;
+    font-weight: 400;
+}
+
+#mf1{
+    padding: 75px 0;
+}
+#mf1 .ttl01{
+    margin-bottom: 18px;
+}
+#mf1 .content{
+    display: flex;
+    flex-wrap: wrap;
+}
+#mf1 .content .left{
+    width: 250px;
+}
+#mf1 .content .right{
+    width: calc(100% - 250px);
+    padding: 10px 0 10px 40px;
+    border-left: 1px solid #3E2B81;
+}
+
+#mf2{
+    background-color: #F7F7F7;
+    padding: 75px 0;
+}
+#mf2 .ttl01{
+    text-align: center;
+}
+#mf2 .flex{
+    width: 875px;
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    margin-top: 45px;
+}
+#mf2 .row:first-child{
+    width: 53%;
+}
+#mf2 .row:first-child img{
+    width: 100%;
+}
+#mf2 .row:last-child{
+    width: 47%;
+    padding-left: 55px;
+    padding-top: 160px;
+}
+#mf2 .row:last-child h3{
+    position: absolute;
+    top: 45px;
+    right: 0;
+    font-size: 1.75em;
+    background-color: #fff;
+    padding: 25px 45px;
+}
+#mf2 .row:last-child p{
+    font-size: 1em;
+    line-height: 43px;
+}
+#mf2 .row:last-child div{
+    width: fit-content;
+    border-bottom: 1px solid #3E2B81;
+    padding: 0 10px 7px;
+    margin-top: 25px;
+}
+
+#mf3{
+    padding: 75px 0;
+}
+#mf3 .flex{
+    width: 875px;
+    margin-left: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+#mf3 .flex .row:first-child{
+    width: 43%;
+}
+#mf3 .flex .row:first-child .underline{
+    width: fit-content;
+    border-bottom: 1px solid #3E2B81;
+    padding: 0 10px 7px;
+    margin-top: 40px;
+}
+#mf3 .flex .row:last-child{
+    width: 57%;
+}
+#mf3 .flex .row:last-child img{
+    width: 100%;
+}
+
+@media only screen and (max-width: 1024px) {
+    #mainvis{
+        background: #fff url(../images/top/img-01.jpg) no-repeat 65% center;
+        height: 100vh;
+        background-size: cover;
+    }
+    #mainvis .mf-frame{
+        margin: 0;
+    }
+    #mainvis .content figure{
+        width: 14em;
+    }
+    #mainvis .content h1{
+        font-size: 1.5em;
+        line-height: 2em;
+        margin: 5vw 0 5vw 0;
+    }
+    #mainvis .content p{
+        font-size: .8em;
+    }
+    
+    #mf1{
+        padding: 15vw 5vw;
+    }
+    #mf1 .ttl01{
+        margin-bottom: .8em;
+    }
+    #mf1 .content .left{
+        width: 100%;
+        margin-bottom: 15vw;
+    }
+    #mf1 .content .right{
+        width: 100%;
+        padding: 0;
+        border-left: none;
+    }
+
+    #mf2{
+        padding: 15vw 5vw;
+    }
+    #mf2 .ttl01{
+        text-align: left;
+    }
+    #mf2 .flex{
+        width: 100%;
+        margin-top: 10vw;
+    }
+    #mf2 .row:first-child{
+        width: 100%;
+    }
+    #mf2 .row:first-child img{
+        width: 100%;
+    }
+    #mf2 .row:last-child{
+        width: 100%;
+        padding-left: 0;
+        padding-top: 10vw;
+        position: relative;
+    }
+    #mf2 .row:last-child h3{
+        position: absolute;
+        top: -8vw;
+        right: 0;
+        font-size: 1.2em;
+        background-color: #fff;
+        padding: 3vw 5vw;
+    }
+    #mf2 .row:last-child p{
+        font-size: 1em;
+        line-height: 2em;
+    }
+    #mf2 .row:last-child div{
+        width: fit-content;
+        border-bottom: 1px solid #3E2B81;
+        padding: 0 10px 7px;
+        margin-top: 25px;
+    }
+
+    
+    #mf3{
+        padding: 15vw 5vw;
+    }
+    #mf3 .flex{
+        width: 100%;
+    }
+    #mf3 .flex .row:first-child{
+        width: 100%;
+        margin-bottom: 10vw;
+    }
+    #mf3 .flex .row:first-child .underline{
+        width: fit-content;
+        border-bottom: 1px solid #3E2B81;
+        padding: 0 10px 7px;
+        margin-top: 5vw;
+    }
+    #mf3 .flex .row:last-child{
+        width: 100%;
+    }
+    #mf3 .flex .row:last-child img{
+        width: 100%;
+    }
+}

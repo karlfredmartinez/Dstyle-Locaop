@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="ja"><head>
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta charset="UTF-8">
+<!-- TemplateBeginEditable name="doctitle" -->
+<title></title>
+<meta name="Keywords" content="" />
+<meta name="Description" content="" />
+<!-- TemplateEndEditable -->
+<meta name="viewport" content="width=device-width">
+<meta name="format-detection" content="telephone=no" />
+<link rel="shortcut icon" href="../favicon.ico">
+<link rel="apple-touch-icon" href="../apple-touch-icon.png">
+
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" type="text/css" href="../css/import.css"  />
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script src="../js/base.js"></script>
+<!-- TemplateBeginEditable name="head" -->
+<link rel="stylesheet" type="text/css" href="../css/sec.css"  />
+<script>
+$(function () {
+
+});
+</script>
+<!-- TemplateEndEditable -->
+</head>
+
+<body>
+<div id="telpopup-frame">
+<div id="telpopup-frame-inner">
+<div id="telpopup-gotel">
+<p id="telpopup-shop"><strong>会社名が入ります。</strong></p>
+<p id="telpopup-stelb">
+<a href="tel:012-345-678" onclick="gtag('event','click',{'event_category':'cv','event_label':'tel'});">0120-123-456</a>
+</p>
+<p id="telpopup-tyui">上記電話番号をタップすると発信します。お電話の際、「ホームページを見た」とお伝え下さい。</p>
+</div>
+<p id="telpopup-close"><a href="javascript:void(0);" onclick="return false;">閉じる</a></p>
+</div>
+</div>
+
+
+
+
+<header>
+<div class="mf" id="header">
+<div class="mf-inner">
+<p><a href="../index.html">ロゴ</a></p>
+<span class="smbtn">&nbsp;</span>
+<!--/mf-inner--></div>
+<!--/mf--></div>
+
+<div class="mf" id="smenu">
+<div class="mf-inner">
+<ul>
+<li><a href="#">menu</a></li>
+<li><a href="#">menu</a></li>
+<li><a href="#">menu</a></li>
+<li><a href="#">menu</a></li>
+<li><a href="../inq/index.php">お問い合わせ</a></li>
+</ul>
+<!--/mf-inner--></div>
+<!--/mf--></div>
+</header>
+
+
+
+<div class="mf" id="mainvis">
+<div class="mf-frame">
+<div class="mf-inner">
+<!-- TemplateBeginEditable name="mainvis" -->
+<h1>お問い合わせ</h1>
+<!-- TemplateEndEditable -->
+<!--/mf-inner--></div>
+<!--/mf-frame--></div>
+<!--/mf--></div>
+
+
+
+<div class="mf" id="main">
+<div class="mf-inner">
+
+<div class="mf" id="pankuzu">
+<div class="mf-frame">
+<div class="mf-inner">
+<ul itemscope itemtype="https://schema.org/BreadcrumbList">
+<li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+<a itemtype="https://schema.org/Thing" itemprop="item" href="../index.php"><span itemprop="name">HOME</span></a>
+<meta itemprop="position" content="1" /></li>
+<!-- TemplateBeginEditable name="pankuzu" -->
+<li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
+<a itemtype="http://schema.org/Thing" itemprop="item" href="index.html">
+<span itemprop="name">
+ページ階層1(滞在ページの場合はaタグを消す)
+</span></a>
+<meta itemprop="position" content="2" /></li>
+
+<li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
+<span itemprop="name">
+ページ階層2
+</span>
+<meta itemprop="position" content="3" /></li>
+
+<!-- TemplateEndEditable -->
+</ul>
+<!--/mf-inner--></div>
+<!--/mf-frame--></div>
+<!--/mf--></div>
+
+
+<!-- TemplateBeginEditable name="main" -->
+<div class="mf" id="mf1">
+<div class="mf-frame">
+<div class="mf-inner">
+<!--/mf-inner--></div>
+<!--/mf-frame--></div>
+<!--/mf--></div>
+
+<!-- TemplateEndEditable -->
+<!--/mf-inner--></div>
+<!--/mf--></div>
+
+
+<div class="mf" id="cfooter">
+<div class="mf-frame">
+<div class="mf-inner"> 
+<ul>
+<li><a href="#">HOME</a></li>
+<li><a href="#">メニュー</a></li>
+<li><a href="#">メニュー</a></li>
+<li><a href="#">メニュー</a></li>
+<li><a href="#">メニュー</a></li>
+<li><a href="#">メニュー</a></li>
+</ul>
+<!--/mf-inner--></div>
+<!--/mf-frame--></div>
+<!--/mf--></div>
+
+
+<footer>
+<div class="mf" id="footer">
+<div class="mf-frame">
+<div class="mf-inner">
+
+<p>ロゴ</p>
+
+<span class="copy">Copyright ©  All Rights Reserved.</span>
+<!--/mf-inner--></div>
+<!--/mf-frame--></div>
+<!--/mf--></div>
+</footer>
+
+<p id="pagetop">TOP</p>
+</body>
+</html>

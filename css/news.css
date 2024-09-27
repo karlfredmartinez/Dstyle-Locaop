@@ -1,0 +1,105 @@
+@charset "utf-8";
+
+
+#mainvis{
+    background: rgb(62,43,129);
+    background: linear-gradient(80deg, rgba(62,43,129,1) 0%, rgba(97,53,134,1) 50%, rgba(134,63,139,1) 100%);
+}
+#mainvis .ttl01 p,
+#mainvis .ttl01 h3{
+    color: #fff;
+    text-align: center;
+}
+#mf1{
+    padding: 100px 0;
+}
+#mf1 .content{
+    max-width: 700px;
+    margin: 0 auto;
+}
+#mf1 .content .ttl01{
+    border-bottom: 1px solid #D1D1D1;
+}
+#mf1 .content .ttl01 h3{
+    margin-bottom: 15px;
+    color: #3E2B81;
+}
+#mf1 .content .ttl01 p{
+    color: #000;
+    font-weight: 400;
+}
+#mf1 .content .newsWrap li{
+    border-bottom: 1px solid #D1D1D1;
+    padding-bottom: 30px;
+}
+#mf1 .content .newsWrap li:not(:last-child){
+    margin-bottom: 30px;
+}
+#mf1 .content .catList{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 30px 0;
+}
+#mf1 .content .catList a{
+    display: inline-block;
+    background-color: #863F8B;
+    font-size: 0.875em;
+    line-height: 17px;
+    color: #fff;
+    padding: 5px;
+    margin: 0 20px 10px 0;
+}
+#mf1 .paginate{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin-top: 60px;
+}
+#mf1 .paginate a{
+    margin: 0 16px;
+    color: #000;
+}
+
+#mf1 .paginate .next,
+#mf1 .paginate .prev{
+    background-color: #3E2B81;
+    color: #fff;
+    font-size: 1.125em;
+    line-height: 1;
+    padding: 5px;
+}
+
+@media only screen and (max-width: 1024px) {
+    #mf1{
+        padding: 15vw 5vw;
+    }
+    #mf1 .content .ttl01 h3{
+        margin-bottom: 2vw;
+    }
+    #mf1 .content .newsWrap li{
+        padding-bottom: 6vw;
+    }
+    #mf1 .content .newsWrap li:not(:last-child){
+        margin-bottom: 6vw;
+    }
+    #mf1 .content .catList a{    
+        font-size: 0.75em;
+        padding: 1vw;
+    }
+    #mf1 .paginate{
+        margin-top: 18vw;
+    }
+    #mf1 .paginate a{
+        margin: 0 3vw 4vw;
+    }
+    
+    #mf1 .paginate .next,
+    #mf1 .paginate .prev{
+        background-color: #3E2B81;
+        color: #fff;
+        font-size: 1.125em;
+        line-height: 1;
+        padding: 5px;
+    }
+}

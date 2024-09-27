@@ -1,0 +1,107 @@
+﻿@charset "utf-8";
+
+/* ===================================================================
+	Author: aki
+=================================================================== */
+
+
+/*初期化*/
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,form,fieldset,input,select,option,textarea,p,table,th,tr,td,figure,img {
+	margin:0;
+	padding:0;
+	text-decoration:none;
+	font-style:normal;
+	list-style:none;
+	font-weight:normal;
+	font-size:100%;
+	border: none;
+}
+*:before,*:after{
+transition: 0.2s;
+box-sizing: border-box;
+}
+
+table{
+border-collapse:collapse;
+border-spacing:0;
+}
+caption,th{
+text-align:left;
+}
+
+img{
+height:auto;
+line-height:1em;
+vertical-align:top;
+}
+summary {
+display: block;
+cursor: pointer;
+outline: none;
+}
+summary::-webkit-details-marker {
+display: none;
+}
+
+select option{
+padding:0 5px;
+}
+
+form label{
+cursor:pointer;
+}
+input,textarea,select,option{
+	font-size:100%;
+	font-family:inherit;
+	background: none;
+-webkit-appearance: none;
+appearance: none;
+	border:none;
+}
+input:focus,
+textarea:focus{
+outline: none;
+}
+input[type="submit"]{
+width: 100%;
+cursor: pointer;
+transition: 0.2s;
+}
+input[type="submit"]:hover{
+opacity: 0.7;
+}
+
+
+
+
+a{
+	margin:0;
+	padding:0;
+}
+.t-right{
+	text-align:right;
+}
+.t-center{
+	text-align:center;
+}
+
+/*基本設定*/
+
+.mf-inner:after,
+.inner:after,
+.cf:after {
+	content: " ";
+	display: block;
+	clear: both;
+	height: 0px;
+	visibility:hidden;
+	line-height:0px;
+}
+.mf-inner,.inner,.cf { display: inline-block; }
+/* exlude MacIE5 */
+* html .mf-inner,
+* html .inner,
+* html .cf { height: 1% }
+.mf-inner,.inner,.cf {display:block;}
+/* end MacIE5 */
+
