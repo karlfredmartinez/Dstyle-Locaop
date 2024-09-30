@@ -5,7 +5,7 @@
 }
 
 #mainvis{
-    background: #fff url('../images/top/img-01.jpg') no-repeat center center;
+    background: #fff url('../images/top/img-01.png') no-repeat center center;
     background-size: cover;
     height: 100vh;
     display: flex;
@@ -13,21 +13,23 @@
 }
 #mainvis .content figure{
     display: flex;
-    width: 387px;
+    width: 521px;
 }
 #mainvis .content figure img{
     width: 100%; 
 }
 #mainvis .content h1{
+    color: #fff;
     font-size: 40px;
     line-height: 86px;
     font-weight: 400;
     display: inline-block;
-    border-bottom: 1px solid #8D8D8D;
+    border-bottom: 1px solid #fff;
     padding-bottom: 15px; 
     margin: 20px 0 26px 0;
 }  
 #mainvis .content p{
+    color: #fff;
     font-size: 22px;
     font-weight: 400;
 }
@@ -98,12 +100,51 @@
 #mf3{
     padding: 75px 0;
 }
+#mf3 .ttl01{
+    text-align: center;
+}
+#mf3 .product{
+    display: flex;
+    gap: 25px;
+    padding-top: 47px;
+}
+#mf3 .product .img{
+    width: 318px;
+}
+#mf3 .product .text{
+    padding: 30px 0 20px 0;
+}
+#mf3 .product h4{
+    font-weight: bold;
+    color: #3E2B81;
+    font-size: 1.25em;
+}
+#mf3 .product h5{
+    font-weight: bold;
+    font-size: 1em;
+    padding: 13px 0;
+}
+#mf3 .product p{
+    font-size: 0.90em;
+}
+#mf3 .product .underline{
+    width: fit-content;
+    border-bottom: 1px solid #3E2B81;
+    padding: 7px 10px;
+}
 #mf3 .flex{
+    margin: 8em 0;
     width: 875px;
     margin-left: auto;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
+}
+#mf3 .flex .row h3{
+    text-align: left;
+    font-size: 1.56em;
+    font-family: 'Noto Sans JP', sans-serif;
+    line-height: 33px;
 }
 #mf3 .flex .row:first-child{
     width: 43%;
@@ -123,7 +164,7 @@
 
 @media only screen and (max-width: 1024px) {
     #mainvis{
-        background: #fff url(../images/top/img-01.jpg) no-repeat 65% center;
+        background: #fff url(../images/top/img-01.png) no-repeat 65% center;
         height: 100vh;
         background-size: cover;
     }
@@ -189,6 +230,7 @@
         padding: 3vw 5vw;
     }
     #mf2 .row:last-child p{
+        padding-top: 2em;
         font-size: 1em;
         line-height: 2em;
     }
@@ -203,12 +245,41 @@
     #mf3{
         padding: 15vw 5vw;
     }
+
+    #mf3 .product{
+        display: block;
+        padding-bottom: 20px;
+    }
+
+    #mf3 .product .item:not(:first-child){
+        padding-top: 5em;
+    }
+
+    #mf3 .product .img{
+        width: 100%;
+    }
+    #mf3 .product h4,h5{
+        text-align: center;
+    }
+
+    #mf3 .flex{
+        margin: 4rem 0;
+    }
+
+    #mf3 .ttl01{
+        text-align: left;
+    }
+    
     #mf3 .flex{
         width: 100%;
     }
+    #mf3 .flex .row h3{
+        font: 400 2.5em / 1.2em 'Meiryo', sans-serif;
+ 
+     }
     #mf3 .flex .row:first-child{
         width: 100%;
-        margin-bottom: 10vw;
+        margin: 10vw 0;
     }
     #mf3 .flex .row:first-child .underline{
         width: fit-content;
