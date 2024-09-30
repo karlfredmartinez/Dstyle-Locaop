@@ -23,7 +23,7 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <script src="js/base.js"></script>
     <!-- InstanceBeginEditable name="head" -->
-    <link rel="stylesheet" type="text/css" href="css/detail.css" />
+    <link rel="stylesheet" type="text/css" href="css/contact.css" />
     <script>
         $(function () {
 
@@ -53,20 +53,19 @@
     <header>
         <div class="mf" id="header">
             <div class="mf-inner">
-                <p><a href="index.html"><img src="/images/common/logo.png" alt="Dstyle Holdings"></a></p>
+                <p><a href="index.html"><img src="/images/common/new_logo.png" alt="Dstyle Holdings"></a></p>
                 <span class="smbtn">&nbsp;</span>
                 <!--/mf-inner-->
             </div>
             <!--/mf-->
         </div>
-
+    
         <div class="mf" id="smenu">
             <div class="mf-inner">
                 <ul>
                     <li><a href="/">TOP</a></li>
-                    <li><a href="/news.html">ニュース</a></li>
-                    <li><a href="/philosophy.html">理念・ビジョン</a></li>
-                    <li><a href="/company.html">企業情報</a></li>
+                    <li><a href="/company.html">Company Profile</a></li>
+                    <li><a href="/products.html">Product List</a></li>
                     <li><a href="/contact.html">Contact</a></li>
                 </ul>
                 <!--/mf-inner-->
@@ -82,8 +81,7 @@
             <div class="mf-inner">
                 <!-- InstanceBeginEditable name="mainvis" -->
                 <div class="ttl01">
-                    <p>ニュース</p>
-                    <h3>News</h3>
+                    <h3>Contact Form</h3>
                 </div>
                 <!-- InstanceEndEditable -->
                 <!--/mf-inner-->
@@ -92,8 +90,6 @@
         </div>
         <!--/mf-->
     </div>
-
-
 
     <div class="mf" id="main">
         <div class="mf-inner">
@@ -111,7 +107,7 @@
                             <li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
                                 <a itemtype="http://schema.org/Thing" itemprop="item" href="index.html">
                                     <span itemprop="name">
-                                        News一覧
+                                        Contact form
                                     </span></a>
                                 <meta itemprop="position" content="2" />
                             </li>
@@ -125,50 +121,40 @@
                 <!--/mf-->
             </div>
 
-
             <!-- InstanceBeginEditable name="main" -->
             <div class="mf" id="mf1">
                 <div class="mf-frame">
                     <div class="mf-inner">
                         <div class="content">
                             <div class="ttl01">
-                                <h3>News</h3>
-                                <p>ニュース</p>
+                                <h3>Contact Form</h3>
                             </div>
-                            <div class="details">
-                                <figure>
-                                    <img src="./images/detail/img-01.jpg" alt="">
-                                </figure>
-                                
-                                <ul class="newsWrap">
-                                    <li class="">
-                                        <a>
-                                            <p class="newsDate">
-                                                <span>2023.</span>
-                                                <span>12/20</span>
-                                            </p>
-                                            <div class="newsCat">
-                                                <span>企業情報</span>
-                                            </div>
-                                            <div class="newsContent">
-                                                <p>ここにニュースの内容が入ります。</p>
-                                            </div>
-                                        </a>
-                                    </li>
-                                </ul>
+                            <form>
+                                <table>
+                                    <tbody>
+                                        <tr>
+                                            <th><label for="name">Name</label><span class="badge">必須</span></th>
+                                            <td><input type="text" id="name"></td>
+                                        </tr>
+                                        <tr>
+                                            <th><label for="telephone">telephone</label><span class="badge">必須</span></th>
+                                            <td><input type="text" id="telephone"></td>
+                                            
+                                        </tr>
+                                        <tr>
+                                            <th><label for="email">Email</label><span class="badge">必須</span></th>
+                                            <td><input type="text" id="email"></td>
+                                        </tr>
+                                        <tr>
+                                            <th><label for="inquiry_detail">Inquiry details</label><span class="badge">必須</span></th>
+                                            <td><textarea type="text" id="inquiry_detail"></textarea></td>
+                                        </tr>                              
+                                    </tbody>
+                                </table>
 
-                                <div class="headlineWrap">
-                                    <h3 class="hdl01">見出し1 : ホームページをリニューアルしました。</h3>
-                                    <h3 class="hdl02">見出し1 : ホームページをリニューアルしました。</h3>
-                                    <h3 class="hdl03">見出し1 : ホームページをリニューアルしました。</h3>
-                                </div>
-                                
-                                <div class="description">
-                                    <p>株式会社Dstyleホールディングス（以下、当方）では、お客様のプライバシーを尊重し、お客様の個人情報を大切に保護することを重要な責務と考えております。当ウェブサイトでは、個人情報保護に関する法令を遵守するとともに、個人情報の取り扱いに関して次のような姿勢で行動しています。</p>
-                                </div>
-
-                                <a href="/news.html" class="btnReturn">戻る</a>
-                            </div>
+                                <button>NEXT</button>   
+                            </form>
+                           
                         </div>
                         <!--/mf-inner-->
                     </div>
@@ -176,7 +162,6 @@
                 </div>
                 <!--/mf-->
             </div>
-
             <!-- InstanceEndEditable -->
             <!--/mf-inner-->
         </div>
@@ -189,15 +174,14 @@
             <div class="mf-inner">
                 <div class="footerLogo">
                     <a href="">
-                        <img src="./images/common/logo.png" alt="Dstyle Holdings">
+                        <img src="./images/common/new_logo.png" alt="Dstyle Holdings">
                     </a>
                 </div>
                 <ul>
                     <li><a href="/">TOP</a></li>
-                    <li><a href="/news.html">ニュース</a></li>
-                    <li><a href="/philosophy.html">理念・ビジョン</a></li>
-                    <li><a href="/company.html">企業情報</a></li>
-                    <li><a href="/contact.html">Contact</a></li>
+                    <li><a href="/company.html">Company Profile</a></li>
+                    <li><a href="/products.html">Products List</a></li>
+                    <li><a href="#">Contact</a></li>
                 </ul>
                 <!--/mf-inner-->
             </div>
@@ -214,7 +198,7 @@
 
                     <!-- <p>ロゴ</p> -->
 
-                    <span class="copy">©2023 Dstyle holdings</span>
+                    <span class="copy">©2024 Dstyle holdings</span>
                     <!--/mf-inner-->
                 </div>
                 <!--/mf-frame-->
