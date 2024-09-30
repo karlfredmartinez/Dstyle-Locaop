@@ -319,11 +319,13 @@ pointer-events: none;
 
 /****.btn01 component***********************************************/
 .btn01{
-    color: #3E2B81 !important;
     font-size: 1.125em;
     font-weight: 700;
+    color: #3E2B81 !important;
     display: flex;
     align-items: center;
+    justify-content: space-between;
+    gap: 130px;
     width: fit-content;
 }
 .btn01:hover img{
@@ -650,6 +652,7 @@ pointer-events: auto;
 /****.btn01 component***********************************************/
 .btn01{
     font-size: 1em;
+    gap: 100px;
 }
 .btn01 img{
     width: 1.5em;
