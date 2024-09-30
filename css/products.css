@@ -67,7 +67,7 @@
 
 
 #mf1{
-    padding: 10em 0;
+    padding: 3em 0;
 }
 #mf1 .content{
     max-width: 1000px;
@@ -82,7 +82,7 @@
 }
 
 #mf1 .content_2{
-    padding-top: 10em;
+    padding-top: 7em;
     max-width: 1000px;
     display: flex;
     flex-wrap: nowrap;
@@ -93,7 +93,7 @@
     padding-left: 0;
 }
 #mf1 .content_3{
-    padding-top: 10em;
+    padding-top: 7em;
     max-width: 1000px;
     display: flex;
     flex-wrap: nowrap;
@@ -114,7 +114,7 @@
     }
 
     .more{
-        padding: 0;
+        padding: 0 0 0.5em 0;
     }
 
     .message{
@@ -128,7 +128,9 @@
     #mf1 .content,
     #mf1 .content_2,
     #mf1 .content_3{
-    flex-direction: column;
+        width: 100%;
+        flex-direction: column;
+        padding-top: 3em;
 
     }
 
@@ -139,9 +141,13 @@
     #mf1 .content .details,
     #mf1 .content_2 .details,
     #mf1 .content_3 .details{
+        width: 100%;
         padding: 2em 2em 2em 2em ;
     }
 
+    .message p{
+        font-size: 0.8em;
+    }
     
 }
 
