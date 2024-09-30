@@ -1,0 +1,153 @@
+@charset "utf-8";
+
+
+#mainvis{
+    background: rgb(62,43,129);
+    background: linear-gradient(80deg, rgba(62,43,129,1) 0%, rgba(97,53,134,1) 50%, rgba(134,63,139,1) 100%);
+}
+#mainvis .ttl01 p,
+#mainvis .ttl01 h3{
+    color: #fff;
+    text-align: center;
+    font-family: "Meiryo", sans-serif;
+    font-size: 3em;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: 60px;
+}
+
+.ttl01 h3 {
+    color: #3E2B81;
+    font-weight: 900;
+}
+
+.ttl02 h3 {
+    font-weight: 900;
+    font-size: 1.5em;
+}
+
+.more {
+    padding-top: 1em;
+    padding-bottom: 0.5em;
+    width: fit-content;
+    border-bottom: 1px solid #3E2B81;   
+}
+.more p{
+    font-size: 1em;
+    font-weight: 800;
+    color: #3E2B81;
+}
+
+.image{
+    max-width: 50%; 
+    flex-basis: 50%; 
+}
+.image img{
+    width: 100%;
+    height: auto;
+}
+.details{
+    display: flex;
+    flex-direction: column;
+    flex-basis: 50%; 
+    width: 50%;
+}
+.message p{
+    font-size: 0.8em;
+}
+
+.ttl02{
+    padding: 1em 0;
+}
+.ttl01 h3{
+    font-size: 2em;
+    font-weight: bolder;
+}
+
+
+
+#mf1{
+    padding: 3em 0;
+}
+#mf1 .content{
+    max-width: 1000px;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: center;
+}
+#mf1 .content .details,
+#mf1 .content_3 .details{
+    padding: 2em 0em 2em 4em;
+}
+
+#mf1 .content_2{
+    padding-top: 7em;
+    max-width: 1000px;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row-reverse;
+    justify-content: center;
+}
+#mf1 .content_2 .details{
+    padding-left: 0;
+}
+#mf1 .content_3{
+    padding-top: 7em;
+    max-width: 1000px;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: center;
+}
+
+@media only screen and (max-width: 1024px) {
+
+    .image{
+        max-width: 100%; 
+        flex-basis: 100%; 
+    }
+    .details{
+        flex-basis:100%; 
+        width: 100%;
+        padding: 1em;
+    }
+
+    .more{
+        padding: 0 0 0.5em 0;
+    }
+
+    .message{
+        font-size: 0.8em;
+    }
+    
+
+    #mf1{
+        padding: 15vw 5vw;
+    }
+    #mf1 .content,
+    #mf1 .content_2,
+    #mf1 .content_3{
+        width: 100%;
+        flex-direction: column;
+        padding-top: 3em;
+
+    }
+
+    .ttl01 h3{
+        font-size: 2em;
+        letter-spacing: 0;
+    }
+    #mf1 .content .details,
+    #mf1 .content_2 .details,
+    #mf1 .content_3 .details{
+        width: 100%;
+        padding: 2em 2em 2em 2em ;
+    }
+
+    .message p{
+        font-size: 0.8em;
+    }
+    
+}
+
