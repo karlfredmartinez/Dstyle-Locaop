@@ -9,6 +9,11 @@
 #mainvis .ttl01 h3{
     color: #fff;
     text-align: center;
+    font-family: "Meiryo", sans-serif;
+    font-size: 3em;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: 60px;
 }
 
 .ttl01 h3 {
@@ -23,9 +28,9 @@
 
 .more {
     padding-top: 1em;
-    width: 50%;
-    height: 50px;
-    border-bottom: 2px solid #3E2B81;   
+    padding-bottom: 0.5em;
+    width: fit-content;
+    border-bottom: 1px solid #3E2B81;   
 }
 .more p{
     font-size: 1em;
