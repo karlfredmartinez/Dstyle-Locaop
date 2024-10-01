@@ -1,7 +1,12 @@
 @charset "utf-8";
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700&display=swap');
 
 
+
+.ttl01 h3{
+    font: normal normal normal 40px/53px "Noto Sans JP", sans-serif;
+}
 
 #pankuzu{
     display: none;
@@ -88,6 +93,7 @@
     font-size: 1.75em;
     background-color: #fff;
     padding: 25px 45px;
+    font-family: "Noto Sans JP", sans-serif;
 }
 #mf2 .row:last-child p{
     font-size: 1em;
@@ -105,6 +111,7 @@
 }
 #mf3 .ttl01{
     text-align: center;
+    font-family: "Noto Sans JP", sans-serif;
 }
 #mf3 .product{
     display: flex;
