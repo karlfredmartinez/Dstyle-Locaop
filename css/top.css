@@ -1,4 +1,7 @@
 @charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap');
+
+
 
 #pankuzu{
     display: none;
@@ -118,6 +121,7 @@
     font-weight: bold;
     color: #3E2B81;
     font-size: 1.25em;
+    font-family: "Noto Sans", sans-serif;
 }
 #mf3 .product h5{
     font-weight: bold;
@@ -126,6 +130,7 @@
 }
 #mf3 .product p{
     font-size: 0.90em;
+    font-family: "Noto Sans", sans-serif;
 }
 #mf3 .product .underline{
     width: fit-content;
