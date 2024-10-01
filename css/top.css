@@ -11,6 +11,9 @@
 #pankuzu{
     display: none;
 }
+.btn01{
+    font: normal normal bold 18px/24px "Noto Sans";
+}
 
 #mainvis{
     background: #fff url('../images/top/img-01.png') no-repeat center center;
