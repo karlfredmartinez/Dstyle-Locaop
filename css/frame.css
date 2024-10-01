@@ -2,14 +2,8 @@
 
 @font-face {
   font-family: "Meiryo";
-  src: url("/fonts/Meiryo.ttf") format("truetype");
+  src: url("../fonts/Meiryo.ttf") format("truetype");
   font-weight: normal;
-  font-style: normal;
-}
-@font-face {
-  font-family: "Meiryo";
-  src: url("/fonts/Meiryo-Bold.ttf") format("truetype");
-  font-weight: bold;
   font-style: normal;
 }
 
