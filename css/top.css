@@ -11,8 +11,16 @@
 #pankuzu{
     display: none;
 }
-.btn01{
-    font: normal normal bold 18px/24px "Noto Sans";
+.btn01 {
+    font: normal normal bold 1.13em/1.5em "Noto Sans", sans-serif;
+}
+
+#smenu, #cfooter {
+    font: normal normal normal 1.13em/1.5em "Noto Sans", sans-serif;
+}
+
+#footer {
+    font: normal normal normal 0.88em/1.19em "Noto Sans", sans-serif;
 }
 
 #mainvis{
