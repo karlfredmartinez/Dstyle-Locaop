@@ -10,6 +10,13 @@
     color: #fff;
     text-align: center;
 }
+#smenu, #cfooter {
+    font: normal normal normal 1.13em/1.5em "Noto Sans", sans-serif;
+}
+
+#footer {
+    font: normal normal normal 0.88em/1.19em "Noto Sans", sans-serif;
+}
 
 #mf1{
     padding: 0 0 68px;
