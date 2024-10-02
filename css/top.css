@@ -156,7 +156,7 @@
     padding: 7px 10px;
 }
 #mf3 .flex{
-    margin: 8em auto;
+    margin: 8em auto 4em auto;
     width: 875px;
     display: flex;
     flex-wrap: wrap;
@@ -287,7 +287,7 @@
         width: 100%;
     }
     #mf3 .product h4,h5{
-        text-align: center;
+        text-align: left;
     }
 
     #mf3 .flex{
