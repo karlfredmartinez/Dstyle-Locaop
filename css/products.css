@@ -54,6 +54,7 @@
     width: 50%;
 }
 .message p{
+    margin-top: 2em;
     font-size: 0.9em;
     font-family: "Noto Sans", sans-serif;
     letter-spacing: 0;
