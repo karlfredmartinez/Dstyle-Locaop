@@ -13,7 +13,6 @@
 #mainvis .ttl01 h3{
     color: #fff;
     text-align: center;
-    font: 400 40px / 53px 'Meiryo', sans-serif;
 }
 .btn01 {
     font: normal normal bold 1.13em/1.5em "Noto Sans", sans-serif;
@@ -144,6 +143,7 @@
     .ttl01 h3{
         font-size: 2em;
         letter-spacing: 0;
+        font: 400 2.5em/1.2em "Meiryo", sans-serif;
     }
     .ttl02 h4{
     line-height: 1em;
