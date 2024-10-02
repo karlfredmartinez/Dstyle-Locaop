@@ -36,8 +36,7 @@
 }
 
 .ttl02 h4 {
-    font-weight: 900;
-    font: normal normal bold 30px/81px "Noto Sans", sans-serif;
+    font: normal normal bold 1.8em / 30px "Noto Sans", sans-serif;
     letter-spacing: 0;
 }
 
@@ -115,7 +114,7 @@
     #mf1 .content,#mf1 .content_reverse{
         flex-direction: column;
         align-items: center;
-        padding-bottom: 1em;
+        padding-bottom: 2em;
     }
     #mf1 .content .left,
     #mf1 .content_reverse .left{
@@ -124,10 +123,14 @@
     #mf1 .content .right,
     #mf1 .content_reverse .right{
         width: 100%;
-        padding: 1.5em 1em;
+        padding: 1.5em 0;
     }
     .more{
         padding: 1em 0 0.5em 0;
+        width: 100%;
+    }
+    .more a{
+        width: 100%;
     }
 
     .message{
