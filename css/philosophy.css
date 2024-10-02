@@ -213,6 +213,9 @@
         width: 100%;
     }
 
+    #mf1 .content .right img {
+        padding-top: 1em;
+    }
 
     #mf2{
         padding: 15vw 5vw;
