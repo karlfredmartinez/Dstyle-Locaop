@@ -211,14 +211,14 @@
     }
    #mf1 table tr th,
    #mf1 table tr td{
-        padding: 3vw 0;
+        padding: 3vw 1em;
         width: 100%;
     }
    #mf1 table tr th{
         width: 100%;
     }
    #mf1 table tr th{
-        padding: 5vw 0 0;
+        padding: 5vw 1em 0;
     }
 
     #mf2{
