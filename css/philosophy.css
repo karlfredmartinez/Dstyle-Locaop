@@ -55,7 +55,7 @@
 }
 #mf1 .content .left{
     width: 72%;
-    padding-right: 55px;
+    padding: 2.6em 3.4em 0 0;
 }
 #mf1 .content .left .message{
     padding-top: 18px;
@@ -72,11 +72,10 @@
     line-height: 2.688em;
 }
 
-#mf1 .content .left .message2{
-    padding-top: 3em;
-}
+
 #mf1 .content .right{
     width: 28%;
+    
 }
 #mf1 .content .right img{
     width: 100%;
@@ -201,8 +200,7 @@
     }
     #mf1 .content .left{
         width: 100%;
-        padding-right: 0;
-        padding-bottom: 5vw;
+        padding: 0;
     }
     #mf1 .content .left .message{
         padding-top: 5vw;
