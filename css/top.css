@@ -156,9 +156,8 @@
     padding: 7px 10px;
 }
 #mf3 .flex{
-    margin: 8em 0;
+    margin: 8em auto;
     width: 875px;
-    margin-left: auto;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
