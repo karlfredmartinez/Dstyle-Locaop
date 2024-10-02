@@ -47,6 +47,7 @@
     font: bold "Meiryo", sans-serif;
     color: #3E2B81;
     letter-spacing: 0px;
+    font-weight: 700;
 }
 #mf1 .content{
     display: flex;
